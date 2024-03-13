@@ -9,7 +9,7 @@ public class Main {
         for (int i : expenses) {
             sum += i;
         }
-        System.out.println("1)Сумма трат за месяц составила " + sum + " рубля.");
+         System.out.println("1)Сумма трат за месяц составила " + sum + " рубля.");
 
         for (int correntExpenses : expenses) {
             if (correntExpenses > expensesMax) {
