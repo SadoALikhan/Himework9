@@ -5,7 +5,6 @@ public class Main {
         int sum = 0;
         int expensesMax = expenses[0];
         int expensesMin = expenses[0];
-        float averageExpens = 0f;
         for (int i : expenses) {
             sum += i;
         }
@@ -21,7 +20,7 @@ public class Main {
         System.out.println("2)Минимальная сумма трат за неделю составила " + expensesMin +
                 " рублей. Максимальная сумма трат за неделю составила " + expensesMax + " рублей");
 
-        averageExpens = (float) sum / expenses.length;
+        float averageExpens = (float) sum / expenses.length;
         System.out.println("3)Средняя сумма трат за месяц составила " + averageExpens + " рублей");
 
         System.out.println("Задача 4:");
