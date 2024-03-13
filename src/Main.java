@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Задача 1, 2 и 3");
+        System.out.println("Задача 1, 2 и 3:");
         int[] expenses = {64544, 66717, 61860, 69341, 61931};
         int sum = 0;
         int expensesMax = expenses[0];
