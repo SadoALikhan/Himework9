@@ -11,6 +11,7 @@ public class Main {
         }
          System.out.println("1)Сумма трат за месяц составила " + sum + " рубля.");
 
+
         for (int correntExpenses : expenses) {
             if (correntExpenses > expensesMax) {
                 expensesMax = correntExpenses;
